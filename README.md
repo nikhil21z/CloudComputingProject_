@@ -1,15 +1,14 @@
-
 # 🚀 Dockerized Visitor Counter with Kubernetes
 
 A Flask-based Visitor Counter application built using **Docker, Redis, and Kubernetes**, featuring horizontal pod autoscaling, health monitoring, self-healing, and hybrid deployment configurations.
 
 ## 📌 Project Overview
 
-This project demonstrates how a Python Flask application can be containerized, connected to Redis, and deployed using Kubernetes.
+This project demonstrates how a Python Flask application can be containerized, integrated with Redis, and deployed using Kubernetes.
 
 It explores container orchestration, workload scaling, application health checks, resource management, and hybrid deployment configurations.
 
-## Docker Dashboard
+## 🐳 Docker Dashboard
 
 ![Docker Dashboard Running](./Screenshots/Docker_Dashboard_Running.png)
 
@@ -47,7 +46,7 @@ The application uses Flask as its web layer and Redis for visitor-count storage.
 ## 📂 Project Structure
 
 ```text
-visitor-counter/
+CloudComputingProject_/
 │
 ├── app/
 │   ├── app.py
@@ -90,9 +89,9 @@ visitor-counter/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Tanishkaaggarwal13/visitor-counter-kubernetes.git
+git clone https://github.com/nikhil21z/CloudComputingProject_.git
 
-cd visitor-counter-kubernetes
+cd CloudComputingProject_
 ```
 
 ### 2. Run Using Docker Compose
@@ -184,7 +183,7 @@ The `/work` endpoint generates CPU-intensive activity to demonstrate scaling beh
 
 ## 📸 Project Screenshots
 
-Screenshots will be added here.
+Screenshots demonstrating the project implementation and deployment will be added here.
 
 Planned evidence:
 
@@ -208,13 +207,16 @@ Planned evidence:
 - Redis integration.
 - Hybrid deployment and failover concepts.
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
-**AYUSH KUMAR SINGH**
+**NIKHIL KUMAR**
 
-B.Tech CSE | AI & ML
+B.Tech CSE | IILM University
 
-GitHub:  [@ayush1365](https://github.com/ayush1365)
+GitHub: [@nikhil21z](https://github.com/nikhil21z)
+
+Project Repository: [CloudComputingProject_](https://github.com/nikhil21z/CloudComputingProject_)
+
 ---
 
 ⭐ If you find this project useful, consider giving the repository a star!
